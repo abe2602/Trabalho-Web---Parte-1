@@ -19,16 +19,18 @@
 }
 
 .ajusteContent {
-  margin-top: 12px;
+  margin-left: 100px;
+  clear: both;
 }
 
 .ajusteContent2 {
-  margin-top: 95px;
+  margin-top: 50px;
 }
 
 .rightAjust{
   float: right;
 }
+
 
 h2{ 
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
