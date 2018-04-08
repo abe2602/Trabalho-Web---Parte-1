@@ -1,0 +1,37 @@
+  /*Modelo clearfix para comportar uma imagem a esqerda seguida por texto*/
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+  }
+
+/* ---------------------------------------------------------------------- */
+#idLeftNav{
+  float: left;
+  clear: left;
+  width: 200px;
+  margin: 0;
+}
+
+#cadastroContentOne {
+  padding-top: 90px;
+}
+
+.ajusteContent {
+  margin-top: 12px;
+}
+
+.ajusteContent2 {
+  margin-top: 95px;
+}
+
+.rightAjust{
+  float: right;
+}
+
+h2{ 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: rgb(80,80,80);
+    text-align: "center";
+}

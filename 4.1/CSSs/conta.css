@@ -1,0 +1,46 @@
+  /*Modelo clearfix para comportar uma imagem a esqerda seguida por texto*/
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+  }
+
+/* ---------------------------------------------------------------------- */
+#idLeftNav{
+  float: left;
+  clear: left;
+  width: 200px;
+  margin: 0;
+}
+
+#borderFoto {
+  border: 5px solid rgb(152, 197, 73);;
+  border-radius: 5px;
+}
+
+.headLeft {
+  height: 150px;
+  background-color: white; 
+}
+
+.links {
+  margin: 8px 0 0 9px;
+  line-height: 16px;
+  padding: 0;
+}
+
+#borderContent {
+  border-left: 3.5px solid rgb(152, 197, 73);
+  border-radius: 5px;
+  margin-left: 250px;
+  width: 70%;
+  height: 550px;
+  padding-left: 8px;
+}
+
+h2{ 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: rgb(80,80,80);
+    text-align: "center";
+}

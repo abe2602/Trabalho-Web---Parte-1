@@ -1,0 +1,19 @@
+  /*Modelo clearfix para comportar uma imagem a esqerda seguida por texto*/
+  .clearfix1::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+  }
+
+  .imgRight {
+    float: right;
+    margin-left: 20px;
+
+  }
+
+  .imgLeft {
+    float: left;
+    padding-right: 20px;
+  }
+/* ---------------------------------------------------------------------- */
